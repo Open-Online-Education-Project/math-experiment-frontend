@@ -1,0 +1,49 @@
+.header {
+    background: #e1f3f7;
+    height:300px
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:50px
+}
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+.navbar-centre-content a {
+    padding: 16px 16px
+}
+
+.navbar-centre-content a.active {
+    color:blue
+}
+
+.header-content-container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row
+}
+
+.course-subcontent {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row
+}
+.course-title {
+    font-size:32px
+}
+
+.course-subtitle {
+    color: gray;
+    padding: 16px
+}
+
+.course-subcontent .course-subtitle {
+    font-size: 12px
+}
+
+.course-element-content {
+    font-size: 18px
+}
